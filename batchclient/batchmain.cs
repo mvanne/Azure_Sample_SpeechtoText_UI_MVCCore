@@ -33,8 +33,6 @@ namespace BatchClient
         // recordings and locale
         private const string Locale = "en-US";
 
-        // **** put in github avn2006@gmail.com **** 
-
         //private static Uri ContentAzureBlobContainer = new Uri("<SAS URI pointing to an container in Azure Blob Storage>");
         private static Uri WebHookCallbackUrl = new Uri($"https://{WebHookAppServiceName}.azurewebsites.us/api/callback");
 
