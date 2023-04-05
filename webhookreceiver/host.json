@@ -1,0 +1,14 @@
+{
+  "SpeechtoTextKey": "your speech key",
+  "SpeechtoTextRegion": "your speech region",
+  "SpeechtoTextEndPoint": "api.cognitive.microsoft.us",
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  }
+}
